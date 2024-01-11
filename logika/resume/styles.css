@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+img.profile_photo {
+    width: 18%;
+}
+
+img.social_media {
+    width: 5%;
+}
+
+.footer-image {
+    width: 15%;
+    margin-right: 5%;
+}
+
+img.menu {
+    width: 18%;
+    margin: auto;
+}
+
+.inline { 
+    display: inline-block; 
+    /* border: 1px solid red; */
+    margin:10px;
+}
+
+.on-center{
+    width: 80%;
+    margin-inline: auto;
+}
+
+span{
+    margin: auto;
+    padding: auto;
+}
+
+.image-row {
+    margin-inline: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
